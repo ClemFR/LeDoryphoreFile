@@ -1,0 +1,85 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Le Doryphore filé - Réserver</title>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel='stylesheet' type='text/css' href='form.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="outer">
+    <div class="navbar">
+      <div class="logo"><a href="index.html"><img src="./assets/logo.png" ></a></div>
+      <div class="navbarItems">
+        <ul class="navbarList">
+          <li><a href="./menu.html">Le Menu</a></li>
+          <li><a href="./histoire.html">Notre Histoire</a></li>
+          <li><a href="./reserver.html"><span class="btnReserver">Réserver</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="reserverTexteDebut">
+      <p class="reserverText">⚠️ PASSE VACCINAL OBLIGATOIRE ⚠️</p>
+      <p class="reserverText">Réserver une table (38€/personnes) :</p>
+    </div>
+    <div class="reserverReservation">
+      <div class="reserverTel">
+        <p class="reserverTelSpacer">Par téléphone au</p>
+        <div class="reserverIcon">
+          <span class="material-icons md-48">phone</span><p>06 01 02 03 04</p>
+        </div>
+      </div>
+      <div class="reserverForm">
+        <div class="reserverFormFormulaire">
+          <form class="form-card">
+            <fieldset class="form-fieldset">
+              <legend class="form-legend">Par formulaire en ligne</legend>
+                <div class="form-element form-input">
+                  <input id="1" class="form-element-field" placeholder=" " type="input"/>
+                  <div class="form-element-bar"></div>
+                  <label class="form-element-label" for="1">Nom</label>
+                </div>
+                <div class="form-element form-input">
+                  <input id="5" class="form-element-field" placeholder=" " type="input"/>
+                  <div class="form-element-bar"></div>
+                  <label class="form-element-label" for="5">Numéro de téléphone</label>
+                </div>
+                <div class="form-element form-input">
+                  <input id="2" class="form-element-field" placeholder=" " type="number"/>
+                  <div class="form-element-bar"></div>
+                  <label class="form-element-label" for="2">Nombre de personnes</label>
+                </div>
+                <div class="form-element form-input">
+                  <input id="3" class="form-element-field" placeholder=" " type="date"/>
+                  <div class="form-element-bar"></div>
+                  <label class="form-element-label" for="3">Date de réservation</label>
+                </div>
+                <div class="form-element form-select">
+                  <select id="4" class="form-element-field">
+                      <option>11:30</option>
+                      <option>11:45</option>
+                      <option>12:00</option>
+                      <option>12:15</option>
+                      <option>12:30</option>
+                      <option>12:45</option>
+                      <option>13:00</option>
+                      <option>etc . . .</option>
+                  </select>
+                  <div class="form-element-bar"></div>
+                  <label class="form-element-label" for="4">Horaire de réservation</label>
+                </div>
+              </fieldset>
+            <div class="form-actions">
+              <button class="form-btn" type="submit">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="reservationLocalisation">
+      <p class="reserverLocText">14 Rue de la Boulangerie<br>12290 Le Vibal</p>
+      <iframe class="reserverCarte" width="600px" height="400px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/restaurant-umap_723181?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=true&onLoadPanel=undefined&captionBar=false&editinosmControl=false#17/44.31539/2.75872"></iframe>
+
+    </div>
+  </div>
+</body>
